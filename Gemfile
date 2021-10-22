@@ -36,19 +36,14 @@ gem "bootsnap", ">= 1.4.4", require: false
 # Use Active Model has_secure_password [https://guides.rubyonrails.org/active_model_basics.html#securepassword]
 # gem "bcrypt", "~> 3.1.7"
 
+# Use HAML template engine for HTML rendering (instead of ERB)
+# gem "haml", "~> 5.2"
+
 # Use Sass to process CSS
-# gem "sassc-rails", "~> 2.1"
+gem "sassc-rails", "~> 2.1"
 
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
 # gem "image_processing", "~> 1.2"
-
-#todo: configure git and create github repo
-#todo: default route and controller
-#todo: front-end: add gems haml-rails sassc, convert view template to haml
-#todo: setup tdd
-#todo: improve the readme
-#todo: setup heroku
-#todo: front-end: use bootstrap maybe
 
 group :development, :test do
   # Start debugger with binding.b [https://github.com/ruby/debug]
@@ -56,6 +51,8 @@ group :development, :test do
 end
 
 group :development do
+  # HAML view conversion and scaffolding tools
+  # gem "haml-rails", github: "haml/haml-rails"
   # Use console on exceptions pages [https://github.com/rails/web-console]
   gem "web-console", ">= 4.1.0"
 

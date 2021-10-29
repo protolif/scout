@@ -37,7 +37,7 @@ gem "bootsnap", ">= 1.4.4", require: false
 # gem "bcrypt", "~> 3.1.7"
 
 # Use HAML template engine for HTML rendering (instead of ERB)
-# gem "haml", "~> 5.2"
+gem "haml", "~> 5.2"
 
 # Use Sass to process CSS
 gem "sassc-rails", "~> 2.1"
@@ -51,8 +51,6 @@ group :development, :test do
 end
 
 group :development do
-  # HAML view conversion and scaffolding tools
-  # gem "haml-rails", github: "haml/haml-rails"
   # Use console on exceptions pages [https://github.com/rails/web-console]
   gem "web-console", ">= 4.1.0"
 

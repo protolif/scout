@@ -39,10 +39,7 @@ Things you may want to cover:
 	* Run the database migrations
 	* Start the server
 
-
 # TODO
-
-* default route and controller
 
 * setup tdd
 
